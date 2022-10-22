@@ -72,7 +72,8 @@ df1 = spark.read.options(header='true').text('/Users/ashoktentu/PycharmProjects/
 print(type(df1))
 # df = spark.sparkContext.textFile('/Users/ashoktentu/PycharmProjects/pythonProject/s3/edi.txt')
 # df1 =df.map(lambda x: (x, )).toDF()
-
+a='ashok'
+a='ashok'
 ds = df1.select("value").collect()
 print(type(ds))
 print(parseData(ds[0]['value']))
